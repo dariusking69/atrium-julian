@@ -1426,37 +1426,6 @@
     "unit": "0416"
   },
   {
-    "id": 6362,
-    "uuid": "ac64878b-5084-4abf-bfe6-ad677e72819a",
-    "address": "480 N Terry Ave Unit 0412, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0412",
-    "city": "Orlando",
-    "rent": "$2,770",
-    "rent_val": 2770,
-    "specs": "3 bd, 2 ba, 1,344 Sq. Ft.",
-    "beds": 3.0,
-    "baths": 2.0,
-    "sqft": 1344,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/2d1005a2-446d-49b7-92f2-d987f9c6b520/large.jpeg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/ac64878b-5084-4abf-bfe6-ad677e72819a",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "",
-    "description": "Rental Terms \n \n Rent: $2,770 \n\n\n\n\n Application Fee: $95",
-    "terms": [
-      "Rent: $2,770",
-      "Application Fee: $95"
-    ],
-    "pets": [],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/2d1005a2-446d-49b7-92f2-d987f9c6b520/large.jpeg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=ac64878b-5084-4abf-bfe6-ad677e72819a&source=Website",
-    "available": "NOW",
-    "unit": "0412"
-  },
-  {
     "id": 6361,
     "uuid": "890c02d8-67fb-4eed-a5d1-afaa1c9509af",
     "address": "480 N Terry Ave Unit 0410, Orlando, FL 32801",
