@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--
+  THE JULIAN — AVAILABILITY WIDGET
+  --------------------------------
+  Live availability for The Julian (480 N Terry Ave, Orlando FL 32801), pulled from
+  AppFolio's public listings feed. Single-building property, so this is a unit
+  availability list (no map / city / zip filters — every unit shares one address).
+
+  EMBED (Squarespace or any site) — paste between the WIDGET START/END markers into a
+  Code Block, or iframe this page:
+
+    <iframe src="https://dariusking69.github.io/atrium-julian/widget.html"
+            title="The Julian — Availability"
+            style="width:100%;height:1500px;border:0" loading="lazy"
+            allow="clipboard-write"></iframe>
+
+  FONTS: the widget uses font-family:inherit, so pasted inline it picks up the host
+  site's typography automatically. In an iframe, the host can push its font with:
+    iframe.contentWindow.postMessage({type:'atr-font', font:getComputedStyle(document.body).fontFamily}, '*')
+
+  ACCENT: change --accent below (currently #003b4a).
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Julian — Availability</title>
+</head>
+<body style="margin:0">
+
+<!-- WIDGET START -->
+<div id="atr-root">
+  <div class="atr-head">
+    <div class="atr-head-name">The Julian</div>
+    <div class="atr-head-sub">480 N Terry Ave, Orlando, FL 32801</div>
+  </div>
+  <div class="atr-bar">
+    <select id="atr-beds" class="atr-in"><option value="">All floor plans</option><option value="0">Studio</option><option value="1">1 Bedroom</option><option value="2">2 Bedrooms</option><option value="3">3 Bedrooms</option></select>
+    <select id="atr-baths" class="atr-in"><option value="">Any baths</option><option value="1">1+</option><option value="2">2+</option></select>
+    <input id="atr-min" class="atr-in atr-sm" type="number" inputmode="numeric" placeholder="Min Rent">
+    <input id="atr-max" class="atr-in atr-sm" type="number" inputmode="numeric" placeholder="Max Rent">
+    <select id="atr-sort" class="atr-in">
+      <option value="rent_asc">Rent (Low to High)</option>
+      <option value="rent_desc">Rent (High to Low)</option>
+      <option value="sqft">Largest first</option>
+      <option value="soonest">Available soonest</option>
+    </select>
+    <button id="atr-reset" class="atr-reset" type="button">Reset</button>
+    <button id="atr-share" class="atr-share" type="button" title="Copy a link to these results">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>
+      <span class="atr-share-label">Share</span></button>
+    <span id="atr-count" class="atr-count"></span>
+  </div>
+  <div id="atr-grid" class="atr-grid"></div>
+  <div id="atr-empty" class="atr-empty" style="display:none">No units match your filters. <button type="button" id="atr-reset2" class="atr-linkbtn">Reset filters</button></div>
+</div>
+
+<style>
+#atr-root{
+  --accent:#003b4a;            /* The Julian accent */
+  --accent-dk:#00262f;
+  --ink:#111418;
+  --muted:#5b6570;
+  --line:#e3e6e8;
+  --card:#fff;
+  font-family:inherit;          /* inherits the host site's typography */
+  color:var(--ink);
+  max-width:1240px;margin:0 auto;padding:8px 16px 40px;box-sizing:border-box;-webkit-font-smoothing:antialiased;
+}
+#atr-root *{box-sizing:border-box}
+#atr-root a{text-decoration:none;color:inherit}
+#atr-root button{font-family:inherit}
+
+/* header */
+.atr-head{padding:10px 4px 14px;border-bottom:2px solid var(--accent)}
+.atr-head-name{font-size:26px;font-weight:700;letter-spacing:-.01em;color:var(--accent)}
+.atr-head-sub{font-size:14px;color:var(--muted);margin-top:3px}
+
+/* filters */
+.atr-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:14px 4px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.atr-in{font:inherit;font-size:14px;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:6px;padding:9px 12px;outline:none;height:38px}
+.atr-in:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,59,74,.13)}
+.atr-sm{width:106px}
+select.atr-in{cursor:pointer;-webkit-appearance:none;appearance:none;padding-right:28px;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' fill='none' stroke='%235b6570' stroke-width='2'><path d='M1 3l4 4 4-4'/></svg>");
+  background-repeat:no-repeat;background-position:right 10px center}
+.atr-reset,.atr-linkbtn{font:inherit;font-size:13px;font-weight:600;color:var(--accent);background:none;border:0;cursor:pointer;padding:8px;text-decoration:underline}
+.atr-share{font:inherit;font-size:13px;font-weight:600;color:#fff;background:var(--accent);border:0;border-radius:6px;height:38px;padding:0 14px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.atr-share:hover{background:var(--accent-dk)}
+.atr-share.ok{background:#1a7f37}
+.atr-share.err{background:#8a6d00}
+.atr-count{font-size:13px;color:var(--muted);margin-left:auto}
+
+/* unit cards */
+.atr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.atr-card{background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .16s,transform .16s;
+  animation:atr-rise .42s cubic-bezier(.22,.9,.3,1) both;animation-delay:var(--d,0ms)}
+.atr-card:hover{transform:translateY(-3px);box-shadow:0 14px 32px -18px rgba(0,59,74,.45)}
+@keyframes atr-rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.atr-card{animation:none}}
+.atr-media{position:relative;display:block;aspect-ratio:4/3;background:#eef1f2}
+.atr-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .35s}
+.atr-media img.on{opacity:1}
+.atr-badge{position:absolute;bottom:0;font-size:13px;font-weight:600;padding:7px 11px;line-height:1}
+.atr-price{left:0;background:var(--accent);color:#fff}
+.atr-avail{right:0;background:rgba(255,255,255,.92);color:var(--ink);font-weight:500}
+.atr-body{padding:13px 14px 4px}
+.atr-unit{font-size:17px;font-weight:700;color:var(--accent)}
+.atr-plan{font-size:13px;color:var(--muted);margin-top:2px}
+.atr-specs{display:flex;gap:12px;align-items:center;font-size:13px;color:#333;padding:9px 14px 12px;flex-wrap:wrap}
+.atr-specs span{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.atr-specs svg{width:16px;height:16px;flex:none;color:var(--accent)}
+.atr-actions{display:grid;grid-template-columns:1fr 1fr;margin-top:auto}
+.atr-btn{text-align:center;padding:11px 8px;font-size:13.5px;letter-spacing:.06em;text-transform:uppercase;font-weight:600}
+#atr-root a.atr-details{background:var(--accent);color:#fff}
+#atr-root a.atr-details:hover{background:var(--accent-dk)}
+#atr-root a.atr-apply{background:#eef1f2;color:var(--accent)}
+#atr-root a.atr-apply:hover{background:#e0e5e7}
+.atr-empty{text-align:center;padding:60px 20px;color:var(--muted)}
+@media(max-width:600px){
+  .atr-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+  .atr-head-name{font-size:22px}
+}
+</style>
+
+<script>
+(function(){
+  // ================= CONFIG =================
+  var CONFIG = {
+    DATA_URL: 'listings.json',   // hosted alongside this file
+    DETAIL_BASE: 'homes/'        // per-unit detail pages ('' to link straight to AppFolio)
+  };
+  var ICONS = {
+    bed:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7v11M3 12h18v6M21 18v-4a3 3 0 0 0-3-3H9"/><path d="M3 11V6a1 1 0 0 1 1-1h4a2 2 0 0 1 2 2v2"/></svg>',
+    bath:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12V6a2 2 0 0 1 4 0M3 12h18v3a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"/><path d="M6 19l-1 2M18 19l1 2"/></svg>',
+    ruler:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="8" width="20" height="8" rx="1"/><path d="M6 8v3M10 8v4M14 8v3M18 8v4"/></svg>'
+  };
+  var $ = function(s){return document.querySelector(s);};
+  var DATA = [];
+
+  fetch(CONFIG.DATA_URL).then(function(r){return r.json();}).then(function(rows){
+    DATA = rows.map(function(l){
+      return {
+        id:l.id, unit:l.unit||'', address:l.address||'', title:l.title||'',
+        rent:l.rent||'', rent_val:l.rent_val||0,
+        beds:(l.beds==null?null:l.beds), baths:(l.baths==null?null:l.baths), sqft:l.sqft||null,
+        photo:l.photo||(l.photos&&l.photos[0])||'', available:l.available||'NOW',
+        detail: CONFIG.DETAIL_BASE ? (CONFIG.DETAIL_BASE+l.id+'.html') : (l.appfolio_url||'#'),
+        apply: l.apply_url||l.appfolio_url||'#'
+      };
+    });
+    readParams(); wire(); apply();
+  }).catch(function(e){ $('#atr-grid').innerHTML='<p style="color:#a00">Could not load availability.</p>'; console.error(e); });
+
+  // ================= SHAREABLE URL =================
+  var FILTERS = {beds:'#atr-beds', baths:'#atr-baths', min:'#atr-min', max:'#atr-max', sort:'#atr-sort'};
+  function readParams(){
+    var p=new URLSearchParams(location.search);
+    Object.keys(FILTERS).forEach(function(k){ if(p.has(k)){ var el=$(FILTERS[k]); if(el) el.value=p.get(k); } });
+  }
+  function syncUrl(){
+    var p=new URLSearchParams();
+    Object.keys(FILTERS).forEach(function(k){
+      var v=$(FILTERS[k]).value;
+      if(v!=='' && !(k==='sort' && v==='rent_asc')) p.set(k,v);
+    });
+    var qs=p.toString();
+    try{ history.replaceState(null,'', qs ? location.pathname+'?'+qs : location.pathname); }catch(e){}
+  }
+  function copyText(t){
+    // execCommand first: synchronous, and works inside a cross-origin iframe where the
+    // async Clipboard API is permission-gated.
+    try{
+      var ta=document.createElement('textarea'); ta.value=t; ta.setAttribute('readonly','');
+      ta.style.cssText='position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;border:0;padding:0';
+      document.body.appendChild(ta); ta.focus(); ta.select();
+      try{ ta.setSelectionRange(0,t.length); }catch(e){}
+      var ok=document.execCommand('copy'); document.body.removeChild(ta);
+      if(ok) return Promise.resolve();
+    }catch(e){}
+    if(navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(t);
+    return Promise.reject();
+  }
+  function share(){
+    syncUrl();
+    var btn=$('#atr-share'), lbl=btn.querySelector('.atr-share-label');
+    var flash=function(m,ok){ lbl.textContent=m; btn.classList.toggle('ok',!!ok); btn.classList.toggle('err',!ok);
+      setTimeout(function(){ lbl.textContent='Share'; btn.classList.remove('ok'); btn.classList.remove('err'); },1800); };
+    copyText(location.href).then(function(){ flash('Link copied',true); }, function(){ flash('Press ⌘/Ctrl+C',false); });
+  }
+
+  // ================= FILTER + RENDER =================
+  function availTime(a){
+    if(!a || a.toUpperCase()==='NOW') return 0;
+    var m=a.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/); if(!m) return 0;
+    var y=+m[3]; if(y<100) y+=2000;
+    return new Date(y,(+m[1])-1,+m[2]).getTime();
+  }
+  function planLabel(l){
+    if(l.beds===0) return 'Studio';
+    if(l.beds==null) return '';
+    return l.beds+(l.beds===1?' Bedroom':' Bedrooms');
+  }
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function apply(){
+    var bd=$('#atr-beds').value, ba=$('#atr-baths').value;
+    var mn=parseInt($('#atr-min').value)||null, mx=parseInt($('#atr-max').value)||null;
+    var rows=DATA.filter(function(l){
+      if(bd!==''){ if(bd==='0'){ if(l.beds!==0) return false; } else if((l.beds||0)!==+bd) return false; }
+      if(ba!=='' && (l.baths||0)<+ba) return false;
+      if(mn!=null && l.rent_val<mn) return false;
+      if(mx!=null && l.rent_val>0 && l.rent_val>mx) return false;
+      return true;
+    });
+    var s=$('#atr-sort').value, asc=function(v){return v>0?v:Infinity;};
+    rows.sort(function(a,b){
+      if(s==='rent_desc') return b.rent_val-a.rent_val;
+      if(s==='sqft')      return (b.sqft||0)-(a.sqft||0);
+      if(s==='soonest')   return availTime(a.available)-availTime(b.available);
+      return asc(a.rent_val)-asc(b.rent_val);
+    });
+    render(rows);
+    $('#atr-count').textContent = rows.length + (rows.length===1?' unit available':' units available');
+    $('#atr-empty').style.display = rows.length?'none':'block';
+    syncUrl();
+  }
+  function render(rows){
+    var g=$('#atr-grid'); g.innerHTML='';
+    rows.forEach(function(l,i){
+      var price=l.rent_val>0?esc(l.rent)+'/mo':'Contact';
+      var beds=l.beds===0?'Studio':(l.beds!=null?l.beds+' Bed':'—');
+      var baths=l.baths!=null?l.baths+' Bath':'—';
+      var sqft=l.sqft!=null?l.sqft.toLocaleString()+' sq ft':'—';
+      var c=document.createElement('div'); c.className='atr-card';
+      c.style.setProperty('--d', Math.min(i*22,420)+'ms');   // staggered arrival
+      c.innerHTML=
+        '<a class="atr-media" href="'+esc(l.detail)+'">'+
+          (l.photo?'<img loading="lazy" src="'+esc(l.photo)+'" alt="">':'')+
+          '<span class="atr-badge atr-price">'+price+'</span>'+
+          '<span class="atr-badge atr-avail">'+esc(l.available)+'</span></a>'+
+        '<a class="atr-body" href="'+esc(l.detail)+'">'+
+          '<div class="atr-unit">'+(l.unit?'Unit '+esc(l.unit):esc(l.address.split(',')[0]))+'</div>'+
+          '<div class="atr-plan">'+esc(planLabel(l))+'</div></a>'+
+        '<div class="atr-specs"><span>'+ICONS.bed+beds+'</span><span>'+ICONS.bath+baths+'</span><span>'+ICONS.ruler+sqft+'</span></div>'+
+        '<div class="atr-actions">'+
+          '<a class="atr-btn atr-details" href="'+esc(l.detail)+'">Details</a>'+
+          '<a class="atr-btn atr-apply" href="'+esc(l.apply)+'" target="_blank" rel="noopener">Apply</a></div>';
+      var img=c.querySelector('img'); if(img){img.onload=function(){img.classList.add('on');}; if(img.complete)img.classList.add('on');}
+      g.appendChild(c);
+    });
+  }
+
+  // ================= EVENTS =================
+  function reset(){
+    ['#atr-min','#atr-max'].forEach(function(s){$(s).value='';});
+    ['#atr-beds','#atr-baths'].forEach(function(s){$(s).value='';});
+    $('#atr-sort').value='rent_asc'; apply();
+  }
+  function wire(){
+    Object.keys(FILTERS).forEach(function(k){ $(FILTERS[k]).addEventListener('input', apply); });
+    $('#atr-reset').addEventListener('click', reset);
+    $('#atr-reset2').addEventListener('click', reset);
+    $('#atr-share').addEventListener('click', share);
+  }
+
+  // Host page can push its font family in (for iframe embeds).
+  window.addEventListener('message', function(e){
+    var d=e.data;
+    if(d && d.type==='atr-font' && typeof d.font==='string'){
+      var f=d.font.trim();
+      if(f && f.length<200 && /^[\w\s,."'()\-]+$/.test(f)){
+        var root=document.getElementById('atr-root');
+        if(root) root.style.fontFamily=f;
+      }
+    }
+  });
+})();
+</script>
+<!-- WIDGET END -->
+
+</body>
+</html>

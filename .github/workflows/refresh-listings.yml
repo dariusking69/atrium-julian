@@ -1,0 +1,29 @@
+name: Refresh The Julian listings
+
+# Small portfolio, so we do a full refresh (grid + detail pages) every run — edits to
+# price, availability, description, photos and terms all show within ~30 minutes.
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"   # every 30 min, offset off the busy top-of-hour for reliability
+  workflow_dispatch:
+
+permissions:
+  contents: write             # let the bot push the refreshed data
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 build.py --refresh-details
+      - name: Commit if changed
+        run: |
+          git config user.name  "atrium-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add index.html grid.html listings.json homes
+          git diff --cached --quiet || git commit -m "Refresh The Julian $(date -u +%FT%TZ)"
+          git push
