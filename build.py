@@ -213,7 +213,13 @@ def build_detail_page(l):
         for i, p in enumerate(photos))
     terms = "".join(f"<li>{esc(t)}</li>" for t in l.get("terms", []))
     pets = "".join(f"<li>{esc(p)}</li>" for p in l.get("pets", []))
-    desc = esc(l.get("description", "")).replace("\n", "<br>")
+    # The Julian's AppFolio listings carry no marketing copy — the "description" is just the
+    # rental-terms block bleeding through. Drop it so we don't render the same info twice.
+    raw_desc = (l.get("description") or "").strip()
+    squash = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
+    if squash(raw_desc) in ("", squash("Rental Terms " + " ".join(l.get("terms") or []))):
+        raw_desc = ""
+    desc = esc(raw_desc).replace("\n", "<br>")
     priceTxt = f'{esc(l["rent"])}/mo' if l.get("rent_val", 0) > 0 else "Contact for price"
     city = esc(l["city"])
     repl = {
@@ -224,7 +230,8 @@ def build_detail_page(l):
         "@@SPECS@@": esc(l["specs"]),
         "@@HERO@@": esc(photos[0] if photos else ""),
         "@@THUMBS@@": thumbs,
-        "@@DESC@@": desc or "No description provided.",
+        "@@ABOUT@@": (f'<div class="block"><h3>About this home</h3><div class="desc">{desc}</div></div>'
+                      if desc else ""),
         "@@TERMS@@": terms or "<li>Contact us for terms.</li>",
         "@@PETS@@": (f'<div class="block"><h3>Pet Policy</h3><ul class="terms">{pets}</ul></div>' if pets else ""),
         "@@APPLY@@": esc(l.get("apply_url") or l["appfolio_url"]),
@@ -411,7 +418,7 @@ DETAIL_TPL = r"""<!DOCTYPE html><html lang="en"><head>
     <div class="pricerow"><span class="p">@@PRICE@@</span><span class="s">@@SPECS@@</span></div>
     <a class="apply" href="@@APPLY@@" target="_blank" rel="noopener">Apply Now →</a>
     <div class="note">Secure application — opens Atrium’s online form.</div>
-    <div class="block"><h3>About this home</h3><div class="desc">@@DESC@@</div></div>
+    @@ABOUT@@
     <div class="block"><h3>Rental Terms</h3><ul class="terms">@@TERMS@@</ul></div>
     @@PETS@@
   </div>
