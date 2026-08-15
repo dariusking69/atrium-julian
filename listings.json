@@ -682,40 +682,6 @@
     "unit": "0313"
   },
   {
-    "id": 6389,
-    "uuid": "375df28b-a233-463d-89be-9983254cfdd4",
-    "address": "480 N Terry Ave Unit 0119, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0119",
-    "city": "Orlando",
-    "rent": "$1,352",
-    "rent_val": 1352,
-    "specs": "Studio, 1 ba, 414 Sq. Ft.",
-    "beds": 0,
-    "baths": 1.0,
-    "sqft": 414,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/59aaf9c4-a085-4180-b0f2-3faeae4ae9e6/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/375df28b-a233-463d-89be-9983254cfdd4",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "Studio Apartment in Downtown Orlando \u2013 The DaVinci",
-    "description": "Studio, 1 Bath, 414 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A smart, efficient studio with a full kitchen and private outdoor space, steps from Lake Eola.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,352 \n\n\n\n\n Application Fee: $95",
-    "terms": [
-      "Rent: $1,352",
-      "Application Fee: $95"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/59aaf9c4-a085-4180-b0f2-3faeae4ae9e6/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=375df28b-a233-463d-89be-9983254cfdd4&source=Website",
-    "available": "NOW",
-    "unit": "0119"
-  },
-  {
     "id": 6388,
     "uuid": "34083162-ce89-422b-b674-97d87b538175",
     "address": "480 N Terry Ave Unit 0107, Orlando, FL 32801",
