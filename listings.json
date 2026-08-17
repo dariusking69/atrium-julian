@@ -1541,40 +1541,6 @@
     "unit": "0501"
   },
   {
-    "id": 6364,
-    "uuid": "70585b69-841c-4f47-8fdc-79c08f716191",
-    "address": "480 N Terry Ave Unit 0422, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0422",
-    "city": "Orlando",
-    "rent": "$1,633",
-    "rent_val": 1633,
-    "specs": "1 bd, 1 ba, 726 Sq. Ft.",
-    "beds": 1.0,
-    "baths": 1.0,
-    "sqft": 726,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/e51067b7-1141-4104-9d8a-a7d17d6d7349/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/70585b69-841c-4f47-8fdc-79c08f716191",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "1 Bed 1 Bath Apartment in Creative Village \u2013 The Matisse",
-    "description": "1 Bed, 1 Bath, 726 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A one-bedroom with room to separate work from rest, plus a private patio or balcony.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,633 \n\n\n\n\n Application Fee: $95",
-    "terms": [
-      "Rent: $1,633",
-      "Application Fee: $95"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/e51067b7-1141-4104-9d8a-a7d17d6d7349/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=70585b69-841c-4f47-8fdc-79c08f716191&source=Website",
-    "available": "NOW",
-    "unit": "0422"
-  },
-  {
     "id": 6363,
     "uuid": "8fe9f512-d5ea-47ad-8c05-16b53e9ac2e3",
     "address": "480 N Terry Ave Unit 0416, Orlando, FL 32801",
