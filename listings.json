@@ -280,41 +280,6 @@
     "unit": "1129"
   },
   {
-    "id": 6429,
-    "uuid": "1ee7e995-9747-42aa-880e-df1d26920fcd",
-    "address": "480 N Terry Ave Unit 0525, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0525",
-    "city": "Orlando",
-    "rent": "$1,550",
-    "rent_val": 1550,
-    "specs": "Studio, 1 ba, 553 Sq. Ft.",
-    "beds": 0,
-    "baths": 1.0,
-    "sqft": 553,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/8230de4f-c2af-418f-bec1-0d733e829ae1/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/1ee7e995-9747-42aa-880e-df1d26920fcd",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "Spacious Studio Apartment in Downtown Orlando \u2013 The Kahlo",
-    "description": "Studio, 1 Bath, 553 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The largest studio floor plan at The Julian, with room to lay out a full living and sleeping area.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,550 \n\n\n\n\n Application Fee: $95 \n\n\n\n Available 8/31/26",
-    "terms": [
-      "Rent: $1,550",
-      "Application Fee: $95",
-      "Available 8/31/26"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/8230de4f-c2af-418f-bec1-0d733e829ae1/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=1ee7e995-9747-42aa-880e-df1d26920fcd&source=Website",
-    "available": "8/31/26",
-    "unit": "0525"
-  },
-  {
     "id": 6408,
     "uuid": "9959d117-bb87-4d9a-9286-cdda7282c24a",
     "address": "480 N Terry Ave Unit 1221, Orlando, FL 32801",
@@ -687,40 +652,6 @@
     "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=13719da3-ba51-4a7a-b710-409014044691&source=Website",
     "available": "NOW",
     "unit": "0621"
-  },
-  {
-    "id": 6393,
-    "uuid": "3dfc6eaf-6c79-4318-82d9-9aadf849b1cb",
-    "address": "480 N Terry Ave Unit 0507, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0507",
-    "city": "Orlando",
-    "rent": "$1,738",
-    "rent_val": 1738,
-    "specs": "2 bd, 2 ba, 1,071 Sq. Ft.",
-    "beds": 2.0,
-    "baths": 2.0,
-    "sqft": 1071,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/0c8c6f46-9bf7-4bac-9c3d-a3260885aac8/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/3dfc6eaf-6c79-4318-82d9-9aadf849b1cb",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "2 Bed 2 Bath Apartment in Creative Village \u2013 The Picasso",
-    "description": "2 Bed, 2 Bath, 1,071 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A flexible two-bedroom, two-bath layout with a living and dining area sized for everyday use.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,738 \n\n\n\n\n Application Fee: $95",
-    "terms": [
-      "Rent: $1,738",
-      "Application Fee: $95"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/0c8c6f46-9bf7-4bac-9c3d-a3260885aac8/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=3dfc6eaf-6c79-4318-82d9-9aadf849b1cb&source=Website",
-    "available": "NOW",
-    "unit": "0507"
   },
   {
     "id": 6392,
@@ -1334,40 +1265,6 @@
     "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=80583555-8528-4d6e-8e8e-d540883dd1d0&source=Website",
     "available": "NOW",
     "unit": "0617"
-  },
-  {
-    "id": 6368,
-    "uuid": "376d4caa-adc3-4b42-9c5f-a54064f2ce26",
-    "address": "480 N Terry Ave Unit 0607, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0607",
-    "city": "Orlando",
-    "rent": "$2,330",
-    "rent_val": 2330,
-    "specs": "2 bd, 2 ba, 1,071 Sq. Ft.",
-    "beds": 2.0,
-    "baths": 2.0,
-    "sqft": 1071,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/efbb0f4b-b687-4213-9a82-b332f10baeda/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/376d4caa-adc3-4b42-9c5f-a54064f2ce26",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "2 Bed 2 Bath Apartment in Creative Village \u2013 The Picasso",
-    "description": "2 Bed, 2 Bath, 1,071 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A flexible two-bedroom, two-bath layout with a living and dining area sized for everyday use.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,330 \n\n\n\n\n Application Fee: $95",
-    "terms": [
-      "Rent: $2,330",
-      "Application Fee: $95"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/efbb0f4b-b687-4213-9a82-b332f10baeda/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=376d4caa-adc3-4b42-9c5f-a54064f2ce26&source=Website",
-    "available": "NOW",
-    "unit": "0607"
   },
   {
     "id": 6367,
