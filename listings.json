@@ -420,41 +420,6 @@
     "unit": "1117"
   },
   {
-    "id": 6402,
-    "uuid": "a86bd861-69a0-48dc-93e1-b8bcdbeda7a4",
-    "address": "480 N Terry Ave Unit 1023, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 1023",
-    "city": "Orlando",
-    "rent": "$2,590",
-    "rent_val": 2590,
-    "specs": "3 bd, 2 ba, 1,291 Sq. Ft.",
-    "beds": 3.0,
-    "baths": 2.0,
-    "sqft": 1291,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/85419932-28f1-49d2-aeed-178b35a8f75c/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/a86bd861-69a0-48dc-93e1-b8bcdbeda7a4",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "3 Bed 2 Bath Apartment in Downtown Orlando \u2013 The Van Gogh",
-    "description": "3 Bed, 2 Bath, 1,291 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The Julian's entry-level three-bedroom, with three real bedrooms and a living/dining area built for gathering.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,590 \n\n\n\n\n Application Fee: $95 \n\n\n\n Available 8/28/26",
-    "terms": [
-      "Rent: $2,590",
-      "Application Fee: $95",
-      "Available 8/28/26"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/85419932-28f1-49d2-aeed-178b35a8f75c/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=a86bd861-69a0-48dc-93e1-b8bcdbeda7a4&source=Website",
-    "available": "8/28/26",
-    "unit": "1023"
-  },
-  {
     "id": 6401,
     "uuid": "a00dbad5-6e7e-4524-9ed7-5fdd7e0fbd44",
     "address": "480 N Terry Ave Unit 1021, Orlando, FL 32801",
