@@ -1082,41 +1082,6 @@
     "unit": "0913"
   },
   {
-    "id": 6373,
-    "uuid": "731b8ea0-a0fc-45a4-8f7d-a6eae0aa0be6",
-    "address": "480 N Terry Ave Unit 0911, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0911",
-    "city": "Orlando",
-    "rent": "$1,425",
-    "rent_val": 1425,
-    "specs": "Studio, 1 ba, 414 Sq. Ft.",
-    "beds": 0,
-    "baths": 1.0,
-    "sqft": 414,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/731b8ea0-a0fc-45a4-8f7d-a6eae0aa0be6",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "Studio Apartment in Downtown Orlando \u2013 The DaVinci",
-    "description": "Studio, 1 Bath, 414 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A smart, efficient studio with a full kitchen and private outdoor space, steps from Lake Eola.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,425 \n\n\n\n\n Application Fee: $95 \n\n\n\n Available 9/11/26",
-    "terms": [
-      "Rent: $1,425",
-      "Application Fee: $95",
-      "Available 9/11/26"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=731b8ea0-a0fc-45a4-8f7d-a6eae0aa0be6&source=Website",
-    "available": "9/11/26",
-    "unit": "0911"
-  },
-  {
     "id": 6369,
     "uuid": "80583555-8528-4d6e-8e8e-d540883dd1d0",
     "address": "480 N Terry Ave Unit 0617, Orlando, FL 32801",
