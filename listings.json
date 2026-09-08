@@ -1,5 +1,75 @@
 [
   {
+    "id": 6581,
+    "uuid": "974f79ab-ba27-48b7-88a6-ded3193fe358",
+    "address": "480 N Terry Ave Unit 0716, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 0716",
+    "city": "Orlando",
+    "rent": "$1,545",
+    "rent_val": 1545,
+    "specs": "Studio, 1 ba, 519 Sq. Ft.",
+    "beds": 0,
+    "baths": 1.0,
+    "sqft": 519,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/c2aa2224-6223-42d1-a22f-4cf3345beb5e/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/974f79ab-ba27-48b7-88a6-ded3193fe358",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "Spacious Studio Apartment in Downtown Orlando \u2013 The Dali",
+    "description": "Studio, 1 Bath, 519 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. Extra elbow room for a studio, with space to separate sleeping and living areas.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,545 \n\n\n\n\n Application Fee: $95 \n\n\n\n Available 9/30/26",
+    "terms": [
+      "Rent: $1,545",
+      "Application Fee: $95",
+      "Available 9/30/26"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/c2aa2224-6223-42d1-a22f-4cf3345beb5e/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=974f79ab-ba27-48b7-88a6-ded3193fe358&source=Website",
+    "available": "9/30/26",
+    "unit": "0716"
+  },
+  {
+    "id": 6579,
+    "uuid": "ba80044d-aa60-421d-9bd6-9b15dcbcde89",
+    "address": "480 N Terry Ave Unit 0818, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 0818",
+    "city": "Orlando",
+    "rent": "$2,450",
+    "rent_val": 2450,
+    "specs": "2 bd, 2 ba, 1,071 Sq. Ft.",
+    "beds": 2.0,
+    "baths": 2.0,
+    "sqft": 1071,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/efbb0f4b-b687-4213-9a82-b332f10baeda/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/ba80044d-aa60-421d-9bd6-9b15dcbcde89",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "2 Bed 2 Bath Apartment in Creative Village \u2013 The Picasso",
+    "description": "2 Bed, 2 Bath, 1,071 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A flexible two-bedroom, two-bath layout with a living and dining area sized for everyday use.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,450 \n\n\n\n\n Application Fee: $95 \n\n\n\n Available 11/10/26",
+    "terms": [
+      "Rent: $2,450",
+      "Application Fee: $95",
+      "Available 11/10/26"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/efbb0f4b-b687-4213-9a82-b332f10baeda/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=ba80044d-aa60-421d-9bd6-9b15dcbcde89&source=Website",
+    "available": "11/10/26",
+    "unit": "0818"
+  },
+  {
     "id": 6545,
     "uuid": "3971bbd5-8930-4d36-a7db-8d4eab3ec942",
     "address": "480 N Terry Ave Unit 0826, Orlando, FL 32801",
