@@ -1,5 +1,40 @@
 [
   {
+    "id": 6639,
+    "uuid": "5a3673de-7e0f-4d97-807e-dcef71bfbc48",
+    "address": "480 N Terry Ave Unit 0330, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 0330",
+    "city": "Orlando",
+    "rent": "$1,830",
+    "rent_val": 1830,
+    "specs": "1 bd, 1 ba, 600 Sq. Ft.",
+    "beds": 1.0,
+    "baths": 1.0,
+    "sqft": 600,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/69078ec6-564e-42d8-b394-6e4a8f457340/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/5a3673de-7e0f-4d97-807e-dcef71bfbc48",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "1 Bed 1 Bath Apartment in Downtown Orlando \u2013 The Klimt",
+    "description": "1 Bed, 1 Bath, 600 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The Julian's entry-level one-bedroom, with a defined bedroom separate from the main living space.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,830 \n\n\n\n\n Application Fee: $95 \n\n\n\n Available 10/10/26",
+    "terms": [
+      "Rent: $1,830",
+      "Application Fee: $95",
+      "Available 10/10/26"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/69078ec6-564e-42d8-b394-6e4a8f457340/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=5a3673de-7e0f-4d97-807e-dcef71bfbc48&source=Website",
+    "available": "10/10/26",
+    "unit": "0330"
+  },
+  {
     "id": 6601,
     "uuid": "a17f4739-3638-4de9-bb67-98d7a24f0515",
     "address": "480 N Terry Ave Unit 0926, Orlando, FL 32801",
