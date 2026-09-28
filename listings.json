@@ -523,41 +523,6 @@
     "unit": "1117"
   },
   {
-    "id": 6401,
-    "uuid": "a00dbad5-6e7e-4524-9ed7-5fdd7e0fbd44",
-    "address": "480 N Terry Ave Unit 1021, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 1021",
-    "city": "Orlando",
-    "rent": "$1,384 - $2,433",
-    "rent_val": 1384,
-    "specs": "Studio, 1 ba, 391 Sq. Ft.",
-    "beds": 0,
-    "baths": 1.0,
-    "sqft": 391,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/b47da1a3-d8b2-428d-b94a-df2df3290e61/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/a00dbad5-6e7e-4524-9ed7-5fdd7e0fbd44",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "Studio Apartment in Downtown Orlando \u2013 The Cassatt",
-    "description": "Studio, 1 Bath, 391 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The most efficient studio in the building, built for renters who'd rather spend on location than square footage.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,384 - $2,433 \n\n\n\n\n Application Fee: $95 \n\n\n\n Available Now",
-    "terms": [
-      "Rent: $1,384 - $2,433",
-      "Application Fee: $95",
-      "Available Now"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/b47da1a3-d8b2-428d-b94a-df2df3290e61/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=a00dbad5-6e7e-4524-9ed7-5fdd7e0fbd44&source=Website",
-    "available": "NOW",
-    "unit": "1021"
-  },
-  {
     "id": 6397,
     "uuid": "3a638336-b28c-4a9a-85f4-e0046ac110ec",
     "address": "480 N Terry Ave Unit 0815, Orlando, FL 32801",
