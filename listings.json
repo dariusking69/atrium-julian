@@ -1,5 +1,41 @@
 [
   {
+    "id": 7201,
+    "uuid": "1c6e02e8-bd40-46bf-b4e7-d3a7761ce333",
+    "address": "480 N Terry Ave Unit 0613, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 0613",
+    "city": "Orlando",
+    "rent": "$1,342 - $2,293",
+    "rent_val": 1342,
+    "specs": "Studio, 1 ba, 414 Sq. Ft.",
+    "beds": 0,
+    "baths": 1.0,
+    "sqft": 414,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/1c6e02e8-bd40-46bf-b4e7-d3a7761ce333",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "Studio Apartment in Downtown Orlando \u2013 The DaVinci",
+    "description": "Studio, 1 Bath, 414 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A smart, efficient studio with a full kitchen and private outdoor space, steps from Lake Eola.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,342 - $2,293 \n\n\n\n Admin Fee: $250 \n\n Application Fee: $95 \n\n\n\n Available 11/10/26",
+    "terms": [
+      "Rent: $1,342 - $2,293",
+      "Admin Fee: $250",
+      "Application Fee: $95",
+      "Available 11/10/26"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=1c6e02e8-bd40-46bf-b4e7-d3a7761ce333&source=Website",
+    "available": "11/10/26",
+    "unit": "0613"
+  },
+  {
     "id": 7008,
     "uuid": "6170e68a-2cab-40d6-96d1-cb5866533480",
     "address": "480 N Terry Ave Unit 0615, Orlando, FL 32801",
@@ -643,41 +679,5 @@
     "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=4da7ee2c-a2f6-4e1d-b127-0d34ff301e99&source=Website",
     "available": "NOW",
     "unit": "1329"
-  },
-  {
-    "id": 6361,
-    "uuid": "890c02d8-67fb-4eed-a5d1-afaa1c9509af",
-    "address": "480 N Terry Ave Unit 0410, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0410",
-    "city": "Orlando",
-    "rent": "$1,859 - $3,209",
-    "rent_val": 1859,
-    "specs": "1 bd, 1 ba, 726 Sq. Ft.",
-    "beds": 1.0,
-    "baths": 1.0,
-    "sqft": 726,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/9e41ca52-ed54-4a70-8d16-5478744a0f1e/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/890c02d8-67fb-4eed-a5d1-afaa1c9509af",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "1 Bed 1 Bath Apartment in Creative Village \u2013 The Matisse",
-    "description": "1 Bed, 1 Bath, 726 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A one-bedroom with room to separate work from rest, plus a private patio or balcony.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,859 - $3,209 \n\n\n\n Admin Fee: $250 \n\n Application Fee: $95 \n\n\n\n Available Now",
-    "terms": [
-      "Rent: $1,859 - $3,209",
-      "Admin Fee: $250",
-      "Application Fee: $95",
-      "Available Now"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/9e41ca52-ed54-4a70-8d16-5478744a0f1e/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=890c02d8-67fb-4eed-a5d1-afaa1c9509af&source=Website",
-    "available": "NOW",
-    "unit": "0410"
   }
 ]
