@@ -1,5 +1,41 @@
 [
   {
+    "id": 7212,
+    "uuid": "ce082824-9b48-4ef5-ab47-7b4f35e558a9",
+    "address": "480 N Terry Ave Unit 1414, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 1414",
+    "city": "Orlando",
+    "rent": "$2,626 - $4,472",
+    "rent_val": 2626,
+    "specs": "2 bd, 2 ba, 1,071 Sq. Ft.",
+    "beds": 2.0,
+    "baths": 2.0,
+    "sqft": 1071,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/efbb0f4b-b687-4213-9a82-b332f10baeda/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/ce082824-9b48-4ef5-ab47-7b4f35e558a9",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "2 Bed 2 Bath Apartment in Creative Village \u2013 The Picasso",
+    "description": "2 Bed, 2 Bath, 1,071 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A flexible two-bedroom, two-bath layout with a living and dining area sized for everyday use.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,626 - $4,472 \n\n\n\n Admin Fee: $250 \n\n Application Fee: $95 \n\n\n\n Available 11/11/26",
+    "terms": [
+      "Rent: $2,626 - $4,472",
+      "Admin Fee: $250",
+      "Application Fee: $95",
+      "Available 11/11/26"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/efbb0f4b-b687-4213-9a82-b332f10baeda/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=ce082824-9b48-4ef5-ab47-7b4f35e558a9&source=Website",
+    "available": "11/11/26",
+    "unit": "1414"
+  },
+  {
     "id": 7201,
     "uuid": "1c6e02e8-bd40-46bf-b4e7-d3a7761ce333",
     "address": "480 N Terry Ave Unit 0613, Orlando, FL 32801",
