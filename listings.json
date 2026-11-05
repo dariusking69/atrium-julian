@@ -108,42 +108,6 @@
     "unit": "0405"
   },
   {
-    "id": 7285,
-    "uuid": "91c6edaa-7428-455d-9ec8-e76351c50799",
-    "address": "480 N Terry Ave Unit 1002, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 1002",
-    "city": "Orlando",
-    "rent": "$2,466 - $4,398",
-    "rent_val": 2466,
-    "specs": "2 bd, 2 ba, 1,098 Sq. Ft.",
-    "beds": 2.0,
-    "baths": 2.0,
-    "sqft": 1098,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/a8291b75-337f-4de1-828b-e9dd0f56ce21/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/91c6edaa-7428-455d-9ec8-e76351c50799",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "Spacious 2 Bed Apartment in Downtown Orlando \u2013 The Rembrandt",
-    "description": "2 Bed, 2 Bath, 1,098 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The Julian's largest two-bedroom, with two full bedroom suites and a generous shared living space.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,466 - $4,398 \n\n\n\n Admin Fee: $250 \n\n Application Fee: $95 \n\n\n\n Available 1/12/27",
-    "terms": [
-      "Rent: $2,466 - $4,398",
-      "Admin Fee: $250",
-      "Application Fee: $95",
-      "Available 1/12/27"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/a8291b75-337f-4de1-828b-e9dd0f56ce21/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=91c6edaa-7428-455d-9ec8-e76351c50799&source=Website",
-    "available": "1/12/27",
-    "unit": "1002"
-  },
-  {
     "id": 6807,
     "uuid": "68b0205f-0a3a-407b-aadd-29ed631543f1",
     "address": "480 N Terry Ave Unit 0712, Orlando, FL 32801",
@@ -214,42 +178,6 @@
     "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=ffae1a2f-6505-4020-a51b-8cd00e5ce5b0&source=Website",
     "available": "11/16/26",
     "unit": "0217"
-  },
-  {
-    "id": 6639,
-    "uuid": "5a3673de-7e0f-4d97-807e-dcef71bfbc48",
-    "address": "480 N Terry Ave Unit 0330, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0330",
-    "city": "Orlando",
-    "rent": "$1,750 - $3,079",
-    "rent_val": 1750,
-    "specs": "1 bd, 1 ba, 600 Sq. Ft.",
-    "beds": 1.0,
-    "baths": 1.0,
-    "sqft": 600,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/69078ec6-564e-42d8-b394-6e4a8f457340/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/5a3673de-7e0f-4d97-807e-dcef71bfbc48",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "1 Bed 1 Bath Apartment in Downtown Orlando \u2013 The Klimt",
-    "description": "1 Bed, 1 Bath, 600 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The Julian's entry-level one-bedroom, with a defined bedroom separate from the main living space.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,750 - $3,079 \n\n\n\n Admin Fee: $250 \n\n Application Fee: $95 \n\n\n\n Available Now",
-    "terms": [
-      "Rent: $1,750 - $3,079",
-      "Admin Fee: $250",
-      "Application Fee: $95",
-      "Available Now"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/69078ec6-564e-42d8-b394-6e4a8f457340/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=5a3673de-7e0f-4d97-807e-dcef71bfbc48&source=Website",
-    "available": "NOW",
-    "unit": "0330"
   },
   {
     "id": 6444,
