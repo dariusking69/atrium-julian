@@ -1,5 +1,41 @@
 [
   {
+    "id": 7345,
+    "uuid": "b46644f6-333a-4cb6-8561-92f3ae735e6e",
+    "address": "480 N Terry Ave Unit 0512, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 0512",
+    "city": "Orlando",
+    "rent": "$3,179",
+    "rent_val": 3179,
+    "specs": "3 bd, 2 ba, 1,344 Sq. Ft.",
+    "beds": 3.0,
+    "baths": 2.0,
+    "sqft": 1344,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/b28830cc-4665-40e0-a0b8-013ca378afe7/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/b46644f6-333a-4cb6-8561-92f3ae735e6e",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "Spacious Floor Plan in Downtown Orlando \u2013 The Warhol",
+    "description": "3 Bed, 2 Bath, 1,344 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The largest floor plan at The Julian \u2014 three bedrooms, two bathrooms, and a living/dining space built for hosting.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $3,179 \n\n\n\n Admin Fee: $250 \n\n Application Fee: $95 \n\n\n\n Available 11/20/26",
+    "terms": [
+      "Rent: $3,179",
+      "Admin Fee: $250",
+      "Application Fee: $95",
+      "Available 11/20/26"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/b28830cc-4665-40e0-a0b8-013ca378afe7/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=b46644f6-333a-4cb6-8561-92f3ae735e6e&source=Website",
+    "available": "11/20/26",
+    "unit": "0512"
+  },
+  {
     "id": 7319,
     "uuid": "6506cda4-79e8-4c47-bceb-664096d95d7a",
     "address": "480 N Terry Ave Unit 1029, Orlando, FL 32801",
