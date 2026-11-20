@@ -1,5 +1,77 @@
 [
   {
+    "id": 7441,
+    "uuid": "b5995e73-bb6f-4fef-a40e-edf7ae51d8c2",
+    "address": "480 N Terry Ave Unit 0915, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 0915",
+    "city": "Orlando",
+    "rent": "$1,311",
+    "rent_val": 1311,
+    "specs": "Studio, 1 ba, 414 Sq. Ft.",
+    "beds": 0,
+    "baths": 1.0,
+    "sqft": 414,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/b5995e73-bb6f-4fef-a40e-edf7ae51d8c2",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "Studio Apartment in Downtown Orlando \u2013 The DaVinci",
+    "description": "Studio, 1 Bath, 414 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A smart, efficient studio with a full kitchen and private outdoor space, steps from Lake Eola.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,311 \n\n\n\n Admin Fee: $250 \n\n\n Application Fee: $95 \n\n\n\n Available 12/29/26",
+    "terms": [
+      "Rent: $1,311",
+      "Admin Fee: $250",
+      "Application Fee: $95",
+      "Available 12/29/26"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=b5995e73-bb6f-4fef-a40e-edf7ae51d8c2&source=Website",
+    "available": "12/29/26",
+    "unit": "0915"
+  },
+  {
+    "id": 7438,
+    "uuid": "83418ce4-b244-4ee9-9b64-14e6d2de6574",
+    "address": "480 N Terry Ave Unit 1313, Orlando, FL 32801",
+    "street": "480 N Terry Ave Unit 1313",
+    "city": "Orlando",
+    "rent": "$1,194 - $2,222",
+    "rent_val": 1194,
+    "specs": "Studio, 1 ba, 414 Sq. Ft.",
+    "beds": 0,
+    "baths": 1.0,
+    "sqft": 414,
+    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
+    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/83418ce4-b244-4ee9-9b64-14e6d2de6574",
+    "lat": 28.549462,
+    "lng": -81.3873209,
+    "title": "Studio Apartment in Downtown Orlando \u2013 The DaVinci",
+    "description": "Studio, 1 Bath, 414 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A smart, efficient studio with a full kitchen and private outdoor space, steps from Lake Eola.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,194 - $2,222 \n\n\n\n Admin Fee: $250 \n\n\n Application Fee: $95 \n\n\n\n Available 1/15/27",
+    "terms": [
+      "Rent: $1,194 - $2,222",
+      "Admin Fee: $250",
+      "Application Fee: $95",
+      "Available 1/15/27"
+    ],
+    "pets": [
+      "Cats allowed",
+      "Dogs allowed"
+    ],
+    "photos": [
+      "https://images.cdn.appfolio.com/atriummanagement/images/83930c78-0763-4fe0-aac7-21268a35a106/large.jpg",
+      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
+    ],
+    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=83418ce4-b244-4ee9-9b64-14e6d2de6574&source=Website",
+    "available": "1/15/27",
+    "unit": "1313"
+  },
+  {
     "id": 7422,
     "uuid": "a51aa29f-6cae-4f36-9531-1d1b818aaf6d",
     "address": "480 N Terry Ave Unit 1114, Orlando, FL 32801",
@@ -106,42 +178,6 @@
     "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=d0b3c724-e231-49f6-a6bf-68b10284bdcf&source=Website",
     "available": "1/2/27",
     "unit": "1212"
-  },
-  {
-    "id": 7345,
-    "uuid": "b46644f6-333a-4cb6-8561-92f3ae735e6e",
-    "address": "480 N Terry Ave Unit 0512, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 0512",
-    "city": "Orlando",
-    "rent": "$2,924 - $5,118",
-    "rent_val": 2924,
-    "specs": "3 bd, 2 ba, 1,344 Sq. Ft.",
-    "beds": 3.0,
-    "baths": 2.0,
-    "sqft": 1344,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/b28830cc-4665-40e0-a0b8-013ca378afe7/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/b46644f6-333a-4cb6-8561-92f3ae735e6e",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "Spacious Floor Plan in Downtown Orlando \u2013 The Warhol",
-    "description": "3 Bed, 2 Bath, 1,344 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The largest floor plan at The Julian \u2014 three bedrooms, two bathrooms, and a living/dining space built for hosting.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,924 - $5,118 \n\n\n\n Admin Fee: $250 \n\n\n Application Fee: $95 \n\n\n\n Available Now",
-    "terms": [
-      "Rent: $2,924 - $5,118",
-      "Admin Fee: $250",
-      "Application Fee: $95",
-      "Available Now"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/b28830cc-4665-40e0-a0b8-013ca378afe7/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=b46644f6-333a-4cb6-8561-92f3ae735e6e&source=Website",
-    "available": "NOW",
-    "unit": "0512"
   },
   {
     "id": 7319,
@@ -268,12 +304,11 @@
     "lat": 28.549462,
     "lng": -81.3873209,
     "title": "2 Bed 2 Bath Apartment in Creative Village \u2013 The Picasso",
-    "description": "2 Bed, 2 Bath, 1,071 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A flexible two-bedroom, two-bath layout with a living and dining area sized for everyday use.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,701 - $4,694 \n\n\n\n Admin Fee: $250 \n\n\n Application Fee: $95 \n\n\n\n Available 11/28/26",
+    "description": "2 Bed, 2 Bath, 1,071 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. A flexible two-bedroom, two-bath layout with a living and dining area sized for everyday use.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $2,701 - $4,694 \n\n\n\n Admin Fee: $250 \n\n\n Application Fee: $95",
     "terms": [
       "Rent: $2,701 - $4,694",
       "Admin Fee: $250",
-      "Application Fee: $95",
-      "Available 11/28/26"
+      "Application Fee: $95"
     ],
     "pets": [
       "Cats allowed",
@@ -284,7 +319,7 @@
       "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
     ],
     "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=db9bf296-9ceb-4b70-9503-8473121eb61c&source=Website",
-    "available": "11/28/26",
+    "available": "NOW",
     "unit": "0720"
   },
   {
@@ -394,42 +429,6 @@
     "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=ac29d489-67a7-4c2c-ae61-e2420a4156ef&source=Website",
     "available": "NOW",
     "unit": "0212"
-  },
-  {
-    "id": 6406,
-    "uuid": "444af388-6152-48d3-9b3b-2fee9a924050",
-    "address": "480 N Terry Ave Unit 1121, Orlando, FL 32801",
-    "street": "480 N Terry Ave Unit 1121",
-    "city": "Orlando",
-    "rent": "$1,149 - $1,964",
-    "rent_val": 1149,
-    "specs": "Studio, 1 ba, 391 Sq. Ft.",
-    "beds": 0,
-    "baths": 1.0,
-    "sqft": 391,
-    "photo": "https://images.cdn.appfolio.com/atriummanagement/images/b47da1a3-d8b2-428d-b94a-df2df3290e61/large.jpg",
-    "appfolio_url": "https://atriummanagement.appfolio.com/listings/detail/444af388-6152-48d3-9b3b-2fee9a924050",
-    "lat": 28.549462,
-    "lng": -81.3873209,
-    "title": "Studio Apartment in Downtown Orlando \u2013 The Cassatt",
-    "description": "Studio, 1 Bath, 391 Sq. Ft. apartment at The Julian in Downtown Orlando's Creative Village. The most efficient studio in the building, built for renters who'd rather spend on location than square footage.\r\n\r\nApartment Features: Exposed Cement Ceilings, Efficient Modern Appliances, Private Patio/Balcony, Disposal, Dishwasher, Air Conditioning, Microwave\r\n\r\nCommunity Features: Rooftop Pool & Clubhouse, Open Air Fitness Center, The Monroe Restaurant, Secured Access Parking, Pet-Friendly (cats & dogs, up to 75 lbs)\r\n\r\nContact consent: By requesting a showing or sending an inquiry about this home, you agree that Atrium Management and AppFolio, our leasing software, may contact you about this home by text (including automated texts), call, and email, such as showing confirmations, reminders, and a short feedback survey. Texts are optional: reply STOP at any time to opt out, and you can still tour and apply. Reply HELP for help. Msg frequency varies. Msg & data rates may apply.\n\n\n\n\n \n \n Rental Terms \n \n Rent: $1,149 - $1,964 \n\n\n\n Admin Fee: $250 \n\n\n Application Fee: $95 \n\n\n\n Available Now",
-    "terms": [
-      "Rent: $1,149 - $1,964",
-      "Admin Fee: $250",
-      "Application Fee: $95",
-      "Available Now"
-    ],
-    "pets": [
-      "Cats allowed",
-      "Dogs allowed"
-    ],
-    "photos": [
-      "https://images.cdn.appfolio.com/atriummanagement/images/b47da1a3-d8b2-428d-b94a-df2df3290e61/large.jpg",
-      "https://images.cdn.appfolio.com/atriummanagement/images/987c274c-3f00-461a-bb4f-80cfe5bacc34/large.png"
-    ],
-    "apply_url": "https://atriummanagement.appfolio.com/listings/rental_applications/new?listable_uid=444af388-6152-48d3-9b3b-2fee9a924050&source=Website",
-    "available": "NOW",
-    "unit": "1121"
   },
   {
     "id": 6392,
